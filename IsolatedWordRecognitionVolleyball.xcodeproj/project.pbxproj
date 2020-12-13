@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D16A78B25753C47006267A8 /* Volleyball_CoreML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7D16A78A25753C47006267A8 /* Volleyball_CoreML.mlmodel */; };
 		7D4686AB256FED5400E19AE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4686AA256FED5400E19AE5 /* AppDelegate.swift */; };
 		7D4686AD256FED5400E19AE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4686AC256FED5400E19AE5 /* SceneDelegate.swift */; };
 		7D4686AF256FED5400E19AE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4686AE256FED5400E19AE5 /* ViewController.swift */; };
 		7D4686B2256FED5400E19AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4686B0256FED5400E19AE5 /* Main.storyboard */; };
 		7D4686B4256FED5600E19AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4686B3256FED5600E19AE5 /* Assets.xcassets */; };
 		7D4686B7256FED5600E19AE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4686B5256FED5600E19AE5 /* LaunchScreen.storyboard */; };
+		7DD1FEC42586258C00B73368 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 7DD1FEC32586258C00B73368 /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D16A78A25753C47006267A8 /* Volleyball_CoreML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Volleyball_CoreML.mlmodel; sourceTree = "<group>"; };
 		7D4686A7256FED5400E19AE5 /* IsolatedWordRecognitionVolleyball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsolatedWordRecognitionVolleyball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4686AA256FED5400E19AE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D4686AC256FED5400E19AE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		7D4686B3256FED5600E19AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D4686B6256FED5600E19AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D4686B8256FED5600E19AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD1FEC32586258C00B73368 /* Fonts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fonts; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		7D46869E256FED5400E19AE5 = {
 			isa = PBXGroup;
 			children = (
+				7DD1FEC32586258C00B73368 /* Fonts */,
 				7D4686A9256FED5400E19AE5 /* IsolatedWordRecognitionVolleyball */,
 				7D4686A8256FED5400E19AE5 /* Products */,
 			);
@@ -63,6 +68,7 @@
 				7D4686B3256FED5600E19AE5 /* Assets.xcassets */,
 				7D4686B5256FED5600E19AE5 /* LaunchScreen.storyboard */,
 				7D4686B8256FED5600E19AE5 /* Info.plist */,
+				7D16A78A25753C47006267A8 /* Volleyball_CoreML.mlmodel */,
 			);
 			path = IsolatedWordRecognitionVolleyball;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 				7D4686B7256FED5600E19AE5 /* LaunchScreen.storyboard in Resources */,
 				7D4686B4256FED5600E19AE5 /* Assets.xcassets in Resources */,
 				7D4686B2256FED5400E19AE5 /* Main.storyboard in Resources */,
+				7DD1FEC42586258C00B73368 /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D16A78B25753C47006267A8 /* Volleyball_CoreML.mlmodel in Sources */,
 				7D4686AF256FED5400E19AE5 /* ViewController.swift in Sources */,
 				7D4686AB256FED5400E19AE5 /* AppDelegate.swift in Sources */,
 				7D4686AD256FED5400E19AE5 /* SceneDelegate.swift in Sources */,
